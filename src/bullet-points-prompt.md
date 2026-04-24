@@ -1,0 +1,1 @@
+Rewrite my experience at [Company Name] using the Google XYZ formula: 'Accomplished X as measured by Y, by doing Z.' Ensure the tone is punchy and results-oriented. If specific metrics aren’t provided, use brackets like [💡] so I can fill them in later.

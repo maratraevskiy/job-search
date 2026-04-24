@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Marat Raevskiy - Cover Letter</title>
+        <style>
+            * {
+                box-sizing: border-box;
+                margin: 0;
+                padding: 0;
+                font-feature-settings: "liga" 0, "clig" 0, "dlig" 0, "kern" 0, "calt" 0;
+                font-variant-ligatures: none;
+                font-kerning: none;
+            }
+
+            body {
+                font-family: Arial, Helvetica, sans-serif;
+                background-color: #f3f4f6;
+                color: #000;
+                -webkit-font-smoothing: antialiased;
+            }
+
+            .container {
+                width: 210mm;
+                min-height: 297mm;
+                margin: 20px auto;
+                background: white;
+                padding: 25mm 25mm;
+                box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+                font-size: 12px;
+                line-height: 1.7;
+            }
+
+            p {
+                margin-bottom: 16px;
+            }
+
+            .greeting {
+                font-weight: 700;
+                margin-bottom: 16px;
+            }
+
+            .signoff {
+                margin-top: 24px;
+            }
+
+            @media print {
+                @page {
+                    size: A4;
+                    margin: 0;
+                }
+                * {
+                    -webkit-font-variant-ligatures: none !important;
+                    font-variant-ligatures: none !important;
+                    font-kerning: none !important;
+                    font-feature-settings: "liga" 0, "clig" 0, "dlig" 0, "kern" 0, "calt" 0 !important;
+                }
+                body {
+                    margin: 0;
+                    padding: 0;
+                    background: none;
+                }
+                .container {
+                    width: 210mm;
+                    height: 297mm;
+                    padding: 25mm 25mm;
+                    overflow: hidden;
+                    box-shadow: none;
+                    margin: 0;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <!-- GREETING: "Hey [Company] team!" or "Hi [Name]!" -->
+            <p class="greeting">Hey [Company] team!</p>
+
+            <!-- PHASE 1: Who I am — name, role, years, M.Eng. background, ownership style -->
+            <p>
+                My name is Marat — I'm a Product Manager and Researcher with
+                over 6 years of experience in B2B SaaS. I specialize in turning
+                user and data insights into high-impact features, backed by a
+                technical M.Eng. background in IT & Network Security. I lead
+                with full ownership and genuine excitement for the product.
+            </p>
+
+            <!-- PHASE 2: Why me — bridge their requirement to one concrete result from the library -->
+            <p>
+                [One sentence on their key requirement]. At [Company], I
+                [specific result with one number].
+            </p>
+
+            <!-- PHASE 3: Why them — one sentence on mission resonance -->
+            <p>
+                [Company]'s mission to [mission statement] resonates with my
+                passion for [personal/professional connection]. If you think I
+                could be a good fit, I'd love to chat at your convenience.
+            </p>
+
+            <p class="signoff">
+                Cheers,<br />
+                Marat
+            </p>
+        </div>
+    </body>
+</html>

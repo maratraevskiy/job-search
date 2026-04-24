@@ -1,0 +1,389 @@
+<!doctype html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Марат Раевский — Резюме</title>
+        <style>
+            :root {
+                --font-main: Arial, Helvetica, sans-serif;
+            }
+
+            * {
+                box-sizing: border-box;
+                margin: 0;
+                padding: 0;
+                font-feature-settings:
+                    "liga" 0,
+                    "clig" 0,
+                    "dlig" 0,
+                    "kern" 0,
+                    "calt" 0;
+                font-variant-ligatures: none;
+                font-kerning: none;
+            }
+
+            body {
+                font-family: var(--font-main);
+                color: #000;
+                line-height: 1.4;
+                background-color: #f3f4f6;
+                -webkit-font-smoothing: antialiased;
+            }
+
+            .page {
+                width: 210mm;
+                min-height: 297mm;
+                margin: 20px auto;
+                background: white;
+                padding: 12mm 15mm;
+                box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+            }
+
+            header {
+                margin-bottom: 10px;
+            }
+
+            h1 {
+                font-size: 26px;
+                font-weight: 700;
+                margin-bottom: 4px;
+            }
+
+            .title {
+                font-size: 12px;
+                color: #000;
+                margin-bottom: 4px;
+            }
+
+            .contact-info {
+                font-size: 11px;
+                display: flex;
+                gap: 8px;
+                flex-wrap: wrap;
+                border-bottom: 1px solid #000;
+                padding-bottom: 6px;
+            }
+
+            .contact-info a {
+                color: inherit;
+                text-decoration: none;
+            }
+
+            section {
+                margin-bottom: 10px;
+            }
+
+            h2 {
+                font-size: 12px;
+                font-weight: 700;
+                text-transform: uppercase;
+                letter-spacing: 0.03em;
+                border-bottom: 1.5px solid #000;
+                padding-bottom: 2px;
+                margin-bottom: 6px;
+            }
+
+            .job {
+                margin-bottom: 8px;
+            }
+
+            .job-header {
+                display: table;
+                width: 100%;
+                margin-bottom: 1px;
+            }
+
+            .company-name {
+                display: table-cell;
+                font-weight: 700;
+                font-size: 12px;
+            }
+
+            .job-title {
+                font-style: italic;
+                font-size: 11px;
+                color: #000;
+            }
+
+            .date-location {
+                display: table-cell;
+                text-align: right;
+                font-size: 11px;
+                font-weight: 600;
+                color: #000;
+                white-space: nowrap;
+            }
+
+            .job-desc {
+                font-size: 11px;
+                margin-bottom: 3px;
+            }
+
+            ul {
+                list-style-type: disc;
+                padding-left: 16px;
+            }
+
+            li {
+                font-size: 11px;
+                margin-bottom: 2px;
+            }
+
+            .skills-grid {
+                display: grid;
+                grid-template-columns: 1fr;
+                gap: 3px;
+            }
+
+            .skill-item {
+                font-size: 11px;
+            }
+
+            .skill-item strong {
+                font-weight: 700;
+            }
+
+            .summary {
+                font-size: 11px;
+                margin-bottom: 8px;
+                color: #000;
+            }
+
+            @media print {
+                * {
+                    -webkit-font-variant-ligatures: none !important;
+                    font-variant-ligatures: none !important;
+                    font-kerning: none !important;
+                    font-feature-settings:
+                        "liga" 0,
+                        "clig" 0,
+                        "dlig" 0,
+                        "kern" 0,
+                        "calt" 0 !important;
+                }
+                body {
+                    background: none;
+                }
+                .page {
+                    margin: 0;
+                    box-shadow: none;
+                    width: 100%;
+                    height: 100%;
+                }
+                section,
+                .job {
+                    page-break-inside: avoid;
+                    break-inside: avoid;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="page">
+            <header>
+                <h1>Марат Раевский</h1>
+                <p class="title">
+                    Senior Product Manager · Platform &amp; Growth · GenAI &amp;
+                    Analytics · B2B SaaS
+                </p>
+                <div class="contact-info">
+                    <span>marat.raevsky@gmail.com</span>
+                    <span>|</span>
+                    <span>+39 (378) 060-7397</span>
+                    <span>|</span>
+                    <span>Испания</span>
+                    <span>|</span>
+                    <a href="https://www.linkedin.com/in/mraevskiy/"
+                        >LinkedIn</a
+                    >
+                    <span>|</span>
+                    <a href="http://wa.me/+77054483348">WhatsApp</a>
+                </div>
+            </header>
+
+            <section id="experience">
+                <h2>Опыт работы</h2>
+                <p class="summary">
+                    Продакт с бэкграундом в UX-исследованиях и техническом
+                    управлении проектами, специализирующийся на платформенных и
+                    growth-продуктах на пересечении AI, аналитики и e-commerce.
+                    Опыт полного цикла — от 0→1 запусков до data-driven
+                    оптимизации в B2B и B2C контекстах.
+                </p>
+
+                <div class="job">
+                    <div class="job-header">
+                        <span class="company-name">EmailMagnet</span>
+                        <span class="date-location"
+                            >Авг. 2022 — Настоящее время | Удаленно</span
+                        >
+                    </div>
+                    <div class="job-title">Senior Product Manager</div>
+                    <p class="job-desc">
+                        EmailMagnet — приложение для сбора email и zero-party
+                        данных в Shopify.
+                    </p>
+                    <ul>
+                        <li>
+                            Увеличил общий показатель сбора email на 50% за счёт
+                            непрерывного A/B-тестирования функций поп-апов,
+                            логики таргетинга и тайминга триггеров.
+                        </li>
+                        <li>
+                            Сохранил 1 крупного клиента под угрозой оттока и
+                            привлёк 2 новых, разработав серверную систему
+                            атрибуции дохода с поддержкой нескольких моделей
+                            (окна 7/14/30 дней) и дашбордом для мерчантов —
+                            прозрачные данные о ROI открыли путь к
+                            upsell-переговорам.
+                        </li>
+                        <li>
+                            Запустил новое GenAI SaaS-направление с нуля,
+                            управляя полным роадмапом и технической реализацией
+                            — продукт вышел в прод за 3 месяца без пересмотра
+                            скоупа.
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="job">
+                    <div class="job-header">
+                        <span class="company-name">Monster Deals</span>
+                        <span class="date-location"
+                            >Авг. 2022 — Нояб. 2024 | Удаленно</span
+                        >
+                    </div>
+                    <div class="job-title">Senior Product Manager</div>
+                    <p class="job-desc">
+                        MonsterDeals — B2C дропшиппинг-приложение с тысячами
+                        ежедневных пользователей.
+                    </p>
+                    <ul>
+                        <li>
+                            Увеличил конверсию первой покупки среди новых
+                            пользователей на 30%, запустив A/B-тест с игровой
+                            механикой Spin-n-Win в онбординг-флоу, опираясь на
+                            паттерн Temu.
+                        </li>
+                        <li>
+                            Восстановил падение повторных покупок на ~30% и
+                            добавил 10% прироста, диагностировав причину
+                            (обязательный запрос push-разрешений в Android)
+                            через анализ логов Stripe и платформенной аналитики
+                            с помощью Pandas, затем запустив бонусную кампанию.
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="job">
+                    <div class="job-header">
+                        <span class="company-name">ИКРА</span>
+                        <span class="date-location">2020 — 2022 | Россия</span>
+                    </div>
+                    <div class="job-title">Senior UX Researcher</div>
+                    <ul>
+                        <li>
+                            Помог повысить NPS для Tele2 и участвовал в создании
+                            новых финансовых продуктов для Visa на основе
+                            исследований.
+                        </li>
+                        <li>
+                            Проводил интервью с топ-менеджментом и глубокие
+                            исследования рынка, переводя инсайты в конкретные
+                            требования к продукту.
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="job">
+                    <div class="job-header">
+                        <span class="company-name">Accuraten</span>
+                        <span class="date-location">2016 — 2022 | Россия</span>
+                    </div>
+                    <div class="job-title">
+                        Product Owner и UX Исследователь
+                    </div>
+                    <ul>
+                        <li>
+                            Разработал архитектуру бренда «Цифра»
+                            (диджитализация добычи) и создал общую концепцию
+                            бренда для крупных промышленных предприятий.
+                        </li>
+                        <li>
+                            Специализировался на стратегиях коммуникаций,
+                            методологиях глубоких исследований и синтезе
+                            инсайтов.
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="job">
+                    <div class="job-header">
+                        <span class="company-name">TBWA и Global Point</span>
+                        <span class="date-location">2012 — 2016 | Россия</span>
+                    </div>
+                    <div class="job-title">IT Project Manager</div>
+                    <ul>
+                        <li>
+                            Руководил кросс-функциональными командами разработки
+                            на всех этапах проекта, занимался системным анализом
+                            и контролем качества.
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <section id="education">
+                <h2>Образование</h2>
+                <div class="job">
+                    <div class="job-header">
+                        <span class="company-name"
+                            >СПбГУТ им. проф. М.А. Бонч-Бруевича</span
+                        >
+                        <span class="date-location">Окончил в 2010</span>
+                    </div>
+                    <div
+                        class="job-title"
+                        style="
+                            color: #1a1a1a;
+                            font-style: normal;
+                            font-weight: 500;
+                        "
+                    >
+                        Магистр техники и технологии, ИТ и информационная
+                        безопасность
+                    </div>
+                </div>
+            </section>
+
+            <section id="skills">
+                <h2>Сертификаты, навыки и интересы</h2>
+                <div class="skills-grid">
+                    <div class="skill-item">
+                        <strong>Технологии:</strong> Generative &amp; Agentic
+                        AI, API-first архитектура, Event Schema Design (PostHog,
+                        GA4/GTM), SQL (PostgreSQL), Firebase, Shopify Admin API,
+                        анализ данных (Pandas/Stripe).
+                    </div>
+                    <div class="skill-item">
+                        <strong>Ключевые навыки:</strong> Стратегия продукта и
+                        OKR, построение дерева метрик, A/B-тестирование и
+                        эксперименты, оптимизация конверсии (CRO), атрибуция
+                        дохода, платформенное мышление, кросс-функциональная
+                        доставка.
+                    </div>
+                    <div class="skill-item">
+                        <strong>Сертификаты:</strong> Стратегия и креатив в
+                        маркетинге (500ч), Психологическое консультирование
+                        (500ч).
+                    </div>
+                    <div class="skill-item">
+                        <strong>Интересы:</strong> trendwatching, reelswatching,
+                        whalewatching.
+                    </div>
+                </div>
+            </section>
+        </div>
+    </body>
+</html>

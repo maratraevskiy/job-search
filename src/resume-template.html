@@ -1,0 +1,371 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Marat Raevskiy - Resume</title>
+        <style>
+            :root {
+                --font-main: Arial, Helvetica, sans-serif;
+            }
+
+            * {
+                box-sizing: border-box;
+                margin: 0;
+                padding: 0;
+                font-feature-settings: "liga" 0, "clig" 0, "dlig" 0, "kern" 0, "calt" 0;
+                font-variant-ligatures: none;
+                font-kerning: none;
+            }
+
+            body {
+                font-family: var(--font-main);
+                color: #000;
+                line-height: 1.4;
+                background-color: #f3f4f6;
+                -webkit-font-smoothing: antialiased;
+            }
+
+            .page {
+                width: 210mm;
+                min-height: 297mm;
+                margin: 20px auto;
+                background: white;
+                padding: 12mm 15mm;
+                box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+            }
+
+            header {
+                margin-bottom: 10px;
+            }
+
+            h1 {
+                font-size: 26px;
+                font-weight: 700;
+                margin-bottom: 4px;
+            }
+
+            .title {
+                font-size: 12px;
+                color: #000;
+                margin-bottom: 4px;
+            }
+
+            .contact-info {
+                font-size: 11px;
+                display: flex;
+                gap: 8px;
+                flex-wrap: wrap;
+                border-bottom: 1px solid #000;
+                padding-bottom: 6px;
+            }
+
+            .contact-info a {
+                color: inherit;
+                text-decoration: none;
+            }
+
+            section {
+                margin-bottom: 10px;
+            }
+
+            h2 {
+                font-size: 12px;
+                font-weight: 700;
+                text-transform: uppercase;
+                letter-spacing: 0.03em;
+                border-bottom: 1.5px solid #000;
+                padding-bottom: 2px;
+                margin-bottom: 6px;
+            }
+
+            .job {
+                margin-bottom: 8px;
+            }
+
+            .job-header {
+                display: table;
+                width: 100%;
+                margin-bottom: 1px;
+            }
+
+            .company-name {
+                display: table-cell;
+                font-weight: 700;
+                font-size: 12px;
+            }
+
+            .job-title {
+                font-style: italic;
+                font-size: 11px;
+                color: #000;
+            }
+
+            .date-location {
+                display: table-cell;
+                text-align: right;
+                font-size: 11px;
+                font-weight: 600;
+                color: #000;
+                white-space: nowrap;
+            }
+
+            .job-desc {
+                font-size: 11px;
+                margin-bottom: 3px;
+            }
+
+            ul {
+                list-style-type: disc;
+                padding-left: 16px;
+            }
+
+            li {
+                font-size: 11px;
+                margin-bottom: 2px;
+            }
+
+            .skills-grid {
+                display: grid;
+                grid-template-columns: 1fr;
+                gap: 3px;
+            }
+
+            .skill-item {
+                font-size: 11px;
+            }
+
+            .skill-item strong {
+                font-weight: 700;
+            }
+
+            .summary {
+                font-size: 11px;
+                margin-bottom: 8px;
+                color: #000;
+            }
+
+            @media print {
+                * {
+                    -webkit-font-variant-ligatures: none !important;
+                    font-variant-ligatures: none !important;
+                    font-kerning: none !important;
+                    font-feature-settings: "liga" 0, "clig" 0, "dlig" 0, "kern" 0 !important;
+                }
+                body {
+                    background: none;
+                }
+                .page {
+                    margin: 0;
+                    box-shadow: none;
+                    width: 100%;
+                    height: 100%;
+                }
+                section,
+                .job {
+                    page-break-inside: avoid;
+                    break-inside: avoid;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="page">
+            <header>
+                <h1>Marat Raevskiy</h1>
+                <p class="title">
+                    Senior Product Manager · Platform &amp; Growth · GenAI &amp; Analytics · B2B SaaS
+                </p>
+                <div class="contact-info">
+                    <span>marat.raevsky@gmail.com</span>
+                    <span>|</span>
+                    <span>+39 (378) 060-7397</span>
+                    <span>|</span>
+                    <span>Spain</span>
+                    <span>|</span>
+                    <a href="https://www.linkedin.com/in/mraevskiy/"
+                        >LinkedIn</a
+                    >
+                    <span>|</span>
+                    <a href="http://wa.me/+77054483348">WhatsApp</a>
+                </div>
+            </header>
+
+            <section id="experience">
+                <h2>Work Experience</h2>
+                <p class="summary">Product manager with a background in UX research and technical project delivery, now focused on platform and growth products at the intersection of AI, analytics, and e-commerce. Track record of owning full product cycles from 0→1 launches to data-driven optimization across B2B and B2C contexts.</p>
+
+                <div class="job">
+                    <div class="job-header">
+                        <span class="company-name">EmailMagnet</span>
+                        <span class="date-location"
+                            >Aug. 2022 – Present | Remote</span
+                        >
+                    </div>
+                    <div class="job-title">Senior Product Manager</div>
+                    <p class="job-desc">
+                        EmailMagnet is a Shopify email and zero-party data
+                        capture app.
+                    </p>
+                    <ul>
+                        <li>
+                            Grew overall email capture rate by 50% by running
+                            continuous A/B tests on popup features, targeting
+                            logic, and trigger timing across the merchant base.
+                        </li>
+                        <li>
+                            Retained 1 at-risk enterprise client and acquired 2
+                            new ones by architecting a server-side revenue
+                            attribution system with multi-model support
+                            (7/14/30-day windows) and a merchant-facing
+                            analytics dashboard, resulting in transparent ROI
+                            data that directly unlocked upsell conversations.
+                        </li>
+                        <li>
+                            Delivered a net-new GenAI SaaS vertical from 0→1
+                            by owning the full roadmap and engineering delivery
+                            end-to-end, resulting in a shipped product within 3
+                            months with zero scope resets.
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="job">
+                    <div class="job-header">
+                        <span class="company-name">Monster Deals</span>
+                        <span class="date-location"
+                            >Aug. 2022 – Nov. 2024 | Remote</span
+                        >
+                    </div>
+                    <div class="job-title">Senior Product Manager</div>
+                    <p class="job-desc">
+                        MonsterDeals — a B2C dropshipping app with thousands of
+                        daily users.
+                    </p>
+                    <ul>
+                        <li>
+                            Lifted first-purchase rate by 30% for new users by
+                            designing and running an A/B test introducing a
+                            gamified Spin-n-Win mechanic into the onboarding
+                            flow, benchmarked against Temu's proven engagement
+                            pattern.
+                        </li>
+                        <li>
+                            Recovered a ~30% decline in repeat purchases and
+                            added 10% incremental volume by diagnosing the root
+                            cause (Android push permission prompt) through
+                            Stripe log and platform analytics deep-dive using
+                            Pandas, then launching a bonus opt-in incentive
+                            campaign.
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="job">
+                    <div class="job-header">
+                        <span class="company-name">IKRA</span>
+                        <span class="date-location">2020 – 2022 | Russia</span>
+                    </div>
+                    <div class="job-title">Senior UX Researcher</div>
+                    <ul>
+                        <li>
+                            Increased NPS for Tele2 and contributed to the
+                            creation of new financial products for Visa through
+                            validated user insights.
+                        </li>
+                        <li>
+                            Conducted C-level interviews and comprehensive
+                            market research to transform qualitative insights
+                            into delivery-ready product requirements.
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="job">
+                    <div class="job-header">
+                        <span class="company-name">Accuraten</span>
+                        <span class="date-location">2016 – 2022 | Russia</span>
+                    </div>
+                    <div class="job-title">Product Owner and UX Researcher</div>
+                    <ul>
+                        <li>
+                            Created brand architecture for Zyfra (mining
+                            digitization) and developed a comprehensive brand
+                            umbrella for major industrial manufacturers.
+                        </li>
+                        <li>
+                            Specialized in brand and communications strategies,
+                            deep research methodologies, and insight synthesis.
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="job">
+                    <div class="job-header">
+                        <span class="company-name">TBWA and Global Point</span>
+                        <span class="date-location">2012 – 2016 | Russia</span>
+                    </div>
+                    <div class="job-title">IT Project Manager</div>
+                    <ul>
+                        <li>
+                            Led cross-functional tech teams through the full
+                            delivery lifecycle, performing system analysis and
+                            ensuring rigorous quality control.
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <section id="education">
+                <h2>Education</h2>
+                <div class="job">
+                    <div class="job-header">
+                        <span class="company-name"
+                            >Saint Petersburg University of
+                            Telecommunications</span
+                        >
+                        <span class="date-location">Graduated Jun 2010</span>
+                    </div>
+                    <div
+                        class="job-title"
+                        style="
+                            color: #1a1a1a;
+                            font-style: normal;
+                            font-weight: 500;
+                        "
+                    >
+                        Master of Engineering (M.Eng.), IT & Network Security
+                    </div>
+                </div>
+            </section>
+
+            <section id="skills">
+                <h2>Certifications, Skills & Interests</h2>
+                <div class="skills-grid">
+                    <div class="skill-item">
+                        <strong>Technologies:</strong> Generative &amp; Agentic
+                        AI, API-first Architecture, Event Schema Design
+                        (PostHog, GA4/GTM), SQL (PostgreSQL), Firebase,
+                        Shopify Admin API, Data Pipeline Analysis
+                        (Pandas/Stripe).
+                    </div>
+                    <div class="skill-item">
+                        <strong>Core Skills:</strong> Product Strategy &amp;
+                        OKRs, Metrics Tree Design, A/B Testing &amp;
+                        Experimentation, Conversion Rate Optimization (CRO),
+                        Revenue Attribution, Platform Thinking,
+                        Cross-functional Delivery.
+                    </div>
+                    <div class="skill-item">
+                        <strong>Certifications:</strong> Strategy and Creative
+                        in Marketing (500h), Counseling Psychology (500h).
+                    </div>
+                    <div class="skill-item">
+                        <strong>Interests:</strong> Trend Watching, Reels
+                        Watching, Whale Watching.
+                    </div>
+                </div>
+            </section>
+        </div>
+    </body>
+</html>
