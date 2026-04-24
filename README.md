@@ -2,8 +2,6 @@
 
 This repository manages the job search process for Marat Raevskiy. It uses a structured workflow to tailor resumes and cover letters based on master assets.
 
-> **Remote jobs:** You can find remote jobs via [@pronotify_bot](https://t.me/pronotify_bot).
-
 ## Repository Structure
 
 *   **`src/`**: Master assets — `resume-template.html`, `resume-template-ru.html`, `cover-letter-template.html`, `CV-Bullet-Points-Library.md`, `Instructions-Cover-Letters.md`.
@@ -27,6 +25,11 @@ Before tailoring resumes for a profession, create or adapt `src/CV-Bullet-Points
 
 In some cases, you can use `src/bullet-points-prompt.md` to help generate the initial bullet library. This is useful when building a library for a new profession or profile, but it is not necessary for every profession.
 
+---
+
+> [!NOTE]
+> You can find remote jobs via [@pronotify_bot](https://t.me/pronotify_bot).
+ 
 ---
 
 ## 🚀 How to Tailor for a New Job
