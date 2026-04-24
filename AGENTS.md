@@ -81,22 +81,6 @@ Use the reusable prompt embedded in `README.md` when asking an AI assistant to p
 
 ---
 
-## Candidate Information
-
-**Name**: Marat Raevskiy
-**Email**: marat.raevsky@gmail.com
-**Phone**: +39(378) 060-7397
-**LinkedIn**: https://www.linkedin.com/in/mraevskiy/
-**WhatsApp**: http://wa.me/+77054483348
-**Location**: Spain
-
-**Professional Background**:
-- Role: Senior Product Manager
-- Education: Saint Petersburg University of Telecommunications, Master of Engineering (IT & Network Security)
-- Core Skills: Product Management, API Integrations, Data Analysis, AI/LLMs, Systems Architecture
-
----
-
 ## Important Notes
 
 1. Reuse the existing templates instead of creating new layouts from scratch.
