@@ -2,6 +2,8 @@
 
 This repository manages the job search process for Marat Raevskiy. It uses a structured workflow to tailor resumes and cover letters based on master assets.
 
+> **Remote jobs:** You can find remote jobs via [@pronotify_bot](https://t.me/pronotify_bot).
+
 ## Repository Structure
 
 *   **`src/`**: Master assets — `resume-template.html`, `resume-template-ru.html`, `cover-letter-template.html`, `CV-Bullet-Points-Library.md`, `Instructions-Cover-Letters.md`.
