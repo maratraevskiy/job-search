@@ -14,7 +14,7 @@ This repository manages the job search process for Marat Raevskiy. It uses a str
 Follow these steps when starting a new application:
 
 ### 1. Setup the Folder
-Create a new folder in `applications/` named `YYYYMM-Company-Role` and place the job description inside as `JD.md`.
+Create a new folder in `applications/` named `YYYYMM-Company` and place the job description inside as `JD.md`.
 
 ### 2. Ask an AI Assistant to Craft Assets
 Use a prompt like this to get started (replace the folder name):
