@@ -9,6 +9,24 @@ This repository manages the job search process for Marat Raevskiy. It uses a str
 
 ---
 
+## How to Clone and Use Locally with Agents
+
+1. Clone the repo:
+   `git clone git@github.com:maratraevskiy/job-search.git`
+2. Open the repo locally in your preferred coding agent environment.
+3. Create a new folder inside `applications/` for the target role and add `JD.md`.
+4. Use the prompt below with your local agent to generate the tailored resume and cover letter.
+
+---
+
+## Bullet Library First
+
+Before tailoring resumes for a profession, create or adapt `src/CV-Bullet-Points-Library.md` so it reflects that profession well.
+
+In some cases, you can use `src/bullet-points-prompt.md` to help generate the initial bullet library. This is useful when building a library for a new profession or profile, but it is not necessary for every profession.
+
+---
+
 ## 🚀 How to Tailor for a New Job
 
 Follow these steps when starting a new application:
