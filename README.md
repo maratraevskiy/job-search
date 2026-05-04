@@ -1,6 +1,6 @@
 # Job Search Workspace
 
-This repository manages the job search process for Marat Raevskiy. It uses a structured workflow to tailor resumes and cover letters based on master assets.
+This repository manages the job search process for you. It uses a structured workflow to tailor resumes and cover letters based on master assets.
 
 ## Repository Structure
 
@@ -92,4 +92,4 @@ Use this after your templates already contain your base resume content. Replace 
 6. Use **clear, accessible language** (avoiding overly dense engineering jargon) to ensure it's understandable for non-technical HR recruiters while maintaining its professional impact.
 7. Keep descriptions **concise** to ensure the resume remains a tight one-page A4 layout.
 8. **Update the resume subtitle** to 'Product Manager | B2B SaaS | 0→1 & Growth | E-commerce & MarTech', adapting it slightly if needed based on the `JD.md` while maintaining the overall format and core focus areas.
-9. Generate a tailored **`Marat Raevskiy Cover Letter.html`** using `src/cover-letter-template.html` as the base, following the instructions in `src/Instructions-Cover-Letters.md`. Keep the HTML template the same, but write the letter content in the same language as the JD. Ensure it is **concise and punchy** (roughly 1.5x shorter than standard)."
+9. Generate a tailored **`[my-name] Cover Letter.html`** using `src/cover-letter-template.html` as the base, following the instructions in `src/Instructions-Cover-Letters.md`. Keep the HTML template the same, but write the letter content in the same language as the JD. Ensure it is **concise and punchy** (roughly 1.5x shorter than standard)."
