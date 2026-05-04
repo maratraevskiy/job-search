@@ -1,6 +1,6 @@
 # Job Search Workspace
 
-This repository manages the job search process for you. It uses a structured workflow to tailor resumes and cover letters based on master assets.
+This repository manages the job search process. It uses a structured workflow to tailor resumes and cover letters based on master assets.
 
 ## Repository Structure
 
