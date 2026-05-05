@@ -32,12 +32,6 @@ Good options:
 *   **Codex app for macOS**: Use it if your workspace has Codex Local enabled. The app supports local workflows, but access can depend on your plan and workspace settings.
 *   **Other local coding agents or IDE agents**: Use any tool that can read and edit the repo folder on your machine.
 
-Less ideal options:
-
-*   **Claude Desktop without local file tooling**: Use it only if you have a local desktop extension or MCP setup that lets Claude access local files.
-*   **Web chat tools**: Use them only if you paste the needed files or upload them manually. They usually cannot update this local repo directly.
-*   **Cloud agents**: Use them only after the repo is pushed to a connected GitHub repository. Cloud agents may not see uncommitted local files.
-
 The key requirement is simple: the agent must be able to read from `src/` and write generated files into `applications/`.
 
 ---
